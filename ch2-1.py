@@ -1,0 +1,1 @@
+print('Python installed Scoop coding with VScode(scoop)!!')
