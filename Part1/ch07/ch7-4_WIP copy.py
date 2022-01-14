@@ -4,8 +4,12 @@ numbers = [1,2,3,4,5]
 数字当てゲーム
 以下をほとんど参考にした
 https://github.com/calthoff/tstp/blob/master/part_I/loops/challenges/chap7_challenge4.py
-"""
 
+TODO
+例外処理の書き方がまだ苦手なので、覚えておく。
+ネストされたループも結構こんがらがる。慣れよう。
+
+"""
 while True:
     answer = input('Guess Number: ')
 
@@ -22,3 +26,4 @@ while True:
     
     else:
         print('not good')
+
