@@ -184,3 +184,6 @@ cython_debug/
 Part1/ch09/ch9-1.py
 ch9-4_test.py
 Part1/ch09/ch9-3_test.py
+Part1/ch10/import random example.py
+Part1/ch10/ch10-1_hangman_test.py
+Part1/ch10/count_randomlist_value.py
