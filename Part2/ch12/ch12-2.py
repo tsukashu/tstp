@@ -1,17 +1,16 @@
 import math
 
+
 class Circle:
-    def __init__(self,r):
+    def __init__(self, r):
         self.r = r
 
     def area(self):
-        return math.pi*self.r*self.r
+        return math.pi * self.r * self.r
 
-c1 = circle(10)
+
+c1 = Circle(10)
 print(c1.area())
 
-c2 = circle(20)
+c2 = Circle(20)
 print(c2.area())
-
-
-        
