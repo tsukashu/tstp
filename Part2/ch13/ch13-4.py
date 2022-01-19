@@ -1,19 +1,15 @@
-"""Composition
-"""
-
 class Horse:
-    def __init__(self,name,rider) -> None:
+    def __init__(self, name, rider) -> None:
         self.name = name
         self.rider = rider
 
 
 class Rider:
-    def __init__(self,name) -> None:
+    def __init__(self, name) -> None:
         self.name = name
 
 
-rd = Rider('tadao')
+rd1 = Rider("Umazo")
+uma1 = Horse("Umako", rd1)
 
-uma = Horse('umako',rd)
-
-print(uma.name.rider)
+print(uma1.rider.name)
