@@ -12,22 +12,21 @@ class Stack:
         return len(self.items)
 
 
-c = "yesterday"
-s1 = Stack()
-for i in c:
-    s1.push(i)
+stack = Stack()
+for i in "yesterday":
+    stack.push(i)
 
-# print(s1.size())
+# print(stack.size())
 
-r1 = []  # <-if if is iterable, it works.
-while s1.size():
-    r1 = s1.pop()
-print(r1)
+reverse_stack = []  # <-if if is iterable, it works.
+while stack.size():
+    reverse_stack += stack.pop()
+print(reverse_stack)
 
 # for test and debug
-# while s1.size():
-# ?? `r1 += a ` may be increment index, menbe...
-# a = s1.pop()
-# r1 += a
+# while stack.size():
+# ?? `reverse_stack += a ` may be increment index, menbe...
+# a = stack.pop()
+# reverse_stack += a
 # print(a)
-# print(r1)
+# print(reverse_stack)
